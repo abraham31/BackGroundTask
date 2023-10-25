@@ -1,5 +1,7 @@
+## falta finalziar detalles
+
 # BackGroundTask
-BackGroundTask para detectar inactividad
+BackGroundTask para detectar inactividad de usuario
 
 ## Proyecto de Autenticación con ASP.NET Core Identity y Background Task
 Este repositorio contiene un proyecto de ejemplo que implementa autenticación de usuarios utilizando ASP.NET Core Identity y una tarea en segundo plano para eliminar el token de acceso en caso de inactividad. El proyecto está desarrollado en ASP.NET Core y se ha utilizado Entity Framework Core para el almacenamiento de datos.
