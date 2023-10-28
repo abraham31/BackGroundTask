@@ -1,5 +1,4 @@
-## falta finalziar detalles
-
+## Login con identity por parte del Client(MVC) y el WEB API
 # BackGroundTask
 Proyecto con un tarea en segundo plano ejecutandose constantemente cada 10 min
 
