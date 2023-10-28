@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace BackGroundTask_Client.Modelos
+namespace BackGroundService_Client.Models
 {
     public class APIResponse
     {

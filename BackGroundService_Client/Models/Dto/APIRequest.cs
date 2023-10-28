@@ -1,5 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
-using static BackGrundTask_Utility.DS;
+﻿using static BackGrundTask_Utility.DS;
 
 namespace BackGroundService_Client.Models.Dto
 {
@@ -10,5 +9,7 @@ namespace BackGroundService_Client.Models.Dto
         public string Url { get; set; }
 
         public object Data { get; set; }
+
+        public string Token { get; set; }
     }
 }

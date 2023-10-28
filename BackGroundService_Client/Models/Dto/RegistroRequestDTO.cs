@@ -1,4 +1,4 @@
-﻿namespace BackGroundTask_Client.Modelos.Dto
+﻿namespace BackGroundService_Client.Models.Dto
 {
     public class RegistroRequestDTO
     {
@@ -7,7 +7,6 @@
         public string Nombres { get; set; }
 
         public string Password { get; set; }
-
-        public string Rol { get; set; }
+        public string Rol { get; set; } = string.Empty;
     }
 }

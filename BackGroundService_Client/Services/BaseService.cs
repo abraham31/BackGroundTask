@@ -1,6 +1,6 @@
-﻿using BackGroundService_Client.Models.Dto;
+﻿using BackGroundService_Client.Models;
+using BackGroundService_Client.Models.Dto;
 using BackGroundService_Client.Services.IServices;
-using BackGroundTask_Client.Modelos;
 using BackGrundTask_Utility;
 using Newtonsoft.Json;
 using System.Text;
@@ -11,6 +11,7 @@ namespace BackGroundService_Client.Services
     {
         public APIResponse responseModel { get; set; }
         public IHttpClientFactory _httpClient { get; set; }
+
         public BaseService(IHttpClientFactory httpClient)
         {
             this.responseModel = new();
@@ -21,12 +22,11 @@ namespace BackGroundService_Client.Services
         {
             try
             {
-                var client = _httpClient.CreateClient("LogingAPI");
+                var client = _httpClient.CreateClient("BackgroundTaskAPI");
                 HttpRequestMessage message = new HttpRequestMessage();
                 message.Headers.Add("Accept", "application/json");
                 message.RequestUri = new Uri(apiRequest.Url);
-
-                if(apiRequest.Data != null)
+                if (apiRequest.Data != null)
                 {
                     message.Content = new StringContent(JsonConvert.SerializeObject(apiRequest.Data),
                         Encoding.UTF8, "application/json");
@@ -43,26 +43,28 @@ namespace BackGroundService_Client.Services
                     case DS.APITipo.DELETE:
                         message.Method = HttpMethod.Delete;
                         break;
-                    default: 
+                    default:
                         message.Method = HttpMethod.Get;
                         break;
                 }
+
                 HttpResponseMessage apiResponse = null;
                 apiResponse = await client.SendAsync(message);
                 var apiContent = await apiResponse.Content.ReadAsStringAsync();
-                var APIResponse = JsonConvert.DeserializeObject<T>(apiContent);
-                return APIResponse;
+                var NResponse = JsonConvert.DeserializeObject<T>(apiContent);
+                return NResponse;
             }
-            catch (Exception  ex)
+            catch (Exception ex)
             {
                 var dto = new APIResponse
                 {
                     ErrorMessages = new List<string> { Convert.ToString(ex.Message) },
                     IsExitoso = false
+
                 };
                 var res = JsonConvert.SerializeObject(dto);
-                var APIResponse = JsonConvert.DeserializeObject<T>(res);
-                return APIResponse;
+                var NReponse = JsonConvert.DeserializeObject<T>(res);
+                return NReponse;
             }
         }
     }

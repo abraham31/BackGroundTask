@@ -1,5 +1,5 @@
-﻿using BackGroundService_Client.Models.Dto;
-using BackGroundTask_Client.Modelos;
+﻿using BackGroundService_Client.Models;
+using BackGroundService_Client.Models.Dto;
 
 namespace BackGroundService_Client.Services.IServices
 {

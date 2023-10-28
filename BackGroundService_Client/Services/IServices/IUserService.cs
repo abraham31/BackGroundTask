@@ -1,10 +1,10 @@
-﻿using BackGroundTask_Client.Modelos.Dto;
+﻿using BackGroundService_Client.Models.Dto;
 
 namespace BackGroundService_Client.Services.IServices
 {
     public interface IUserService
     {
-        Task<T> Loging<T>(LoginRequestDTO dto);
-        Task<T> Registrate<T>(RegistroRequestDTO dto);
+        Task<T> Login<T>(LoginRequestDTO dto);
+        Task<T> SingUp<T>(RegistroRequestDTO dto);
     }
 }

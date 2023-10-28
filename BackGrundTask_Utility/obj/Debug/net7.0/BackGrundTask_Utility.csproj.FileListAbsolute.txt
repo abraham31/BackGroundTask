@@ -1,0 +1,12 @@
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\bin\Debug\net7.0\BackGrundTask_Utility.deps.json
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\bin\Debug\net7.0\BackGrundTask_Utility.dll
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\bin\Debug\net7.0\BackGrundTask_Utility.pdb
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\obj\Debug\net7.0\BackGrundTask_Utility.csproj.AssemblyReference.cache
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\obj\Debug\net7.0\BackGrundTask_Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\obj\Debug\net7.0\BackGrundTask_Utility.AssemblyInfoInputs.cache
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\obj\Debug\net7.0\BackGrundTask_Utility.AssemblyInfo.cs
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\obj\Debug\net7.0\BackGrundTask_Utility.csproj.CoreCompileInputs.cache
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\obj\Debug\net7.0\BackGrundTask_Utility.dll
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\obj\Debug\net7.0\refint\BackGrundTask_Utility.dll
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\obj\Debug\net7.0\BackGrundTask_Utility.pdb
+D:\abrah\Documents\VS Repos\BackGroundTask\BackGrundTask_Utility\obj\Debug\net7.0\ref\BackGrundTask_Utility.dll

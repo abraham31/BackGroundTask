@@ -32,6 +32,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/abrah/Documents/VS Repos/BackGroundTask/BackGroundService_Client/Views/User/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/abrah/Documents/VS Repos/BackGroundTask/BackGroundService_Client/Views/User/SingIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaW5nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/abrah/Documents/VS Repos/BackGroundTask/BackGroundService_Client/Views/User/SingUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaW5nVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/abrah/Documents/VS Repos/BackGroundTask/BackGroundService_Client/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

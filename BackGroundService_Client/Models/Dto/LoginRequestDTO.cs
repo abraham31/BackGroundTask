@@ -1,4 +1,4 @@
-﻿namespace BackGroundTask_Client.Modelos.Dto
+﻿namespace BackGroundService_Client.Models.Dto
 {
     public class LoginRequestDTO
     {

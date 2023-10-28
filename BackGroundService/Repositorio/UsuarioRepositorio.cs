@@ -62,7 +62,7 @@ namespace BackGroundTask.Repositorio
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Name, usuario.UserName.ToString()),
+                    new Claim(ClaimTypes.Name, usuario.UserName),
                     new Claim(ClaimTypes.Role, roles.FirstOrDefault())
                 }),
                 Expires  = DateTime.UtcNow.AddDays(7),
@@ -72,7 +72,8 @@ namespace BackGroundTask.Repositorio
             LoginResponseDTO loginResponseDTO = new()
             {
                 Token = tokenHandler.WriteToken(token),
-                Usuario = _mapper.Map<UsuarioDto>(usuario)
+                Usuario = _mapper.Map<UsuarioDto>(usuario),
+                Rol = roles.FirstOrDefault()
             };
             return loginResponseDTO;
         }
